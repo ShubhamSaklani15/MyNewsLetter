@@ -1,0 +1,28 @@
+body{
+    background-color: 	#00416a;
+}
+.container
+{
+    background-color: 	#08457e;
+    color:white;
+    font-size:xx-large;
+    padding: 3%;
+}
+
+/* index.html */
+h3
+{
+    margin-top: 14px;
+    color:white;
+    letter-spacing: 3px;
+}
+.card1
+{
+    margin:auto;
+    margin-top:7%;
+    text-align: center;
+}
+.card2
+{
+    background-color: #08457e;
+}

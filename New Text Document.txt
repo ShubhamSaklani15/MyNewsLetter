@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Success
+        </title>
+        <!--css-->
+        <link rel="stylesheet" src="styles/style.css">
+    </head>
+    <body>
+        <div clas="success">
+            <h1 class="display-4">Awesome!</h1>
+              <p class="lead">You have been succesfully signed up....</p>
+        </div>
+              
+    </body>
+</html>
