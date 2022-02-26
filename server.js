@@ -34,14 +34,14 @@ app.post("/",function(request,response){
         response.sendFile(__dirname+"/success.html");
         else response.sendFile(__dirname+"/failure.html");
         
-    })
-
-    app.post("/tryagain",function(request,response){
-        response.redirect("/");
     });
     req.write(JSONdata);
     req.end();
 });
+
+app.post("/tryagain",function(request,response){
+        response.redirect("/");
+    });
 
 app.listen(process.env.PORT || 3000,function(){
     console.log("listening");
