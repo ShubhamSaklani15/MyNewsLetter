@@ -24,10 +24,10 @@ app.post("/",function(request,response){
         }]
     };
     var JSONdata=JSON.stringify(mydata);
-    const url="https://us14.api.mailchimp.com/3.0/lists/38d8be9276";
+    const url="https://us14.api.mailchimp.com/3.0/lists/list_id";
     const options={
         method:"POST",
-        auth:"Shubham:95447e3f37d33e23761faf5c4920e394-us14"
+        auth:"Shubham:apikey"
     }
     const req=https.request(url,options,function(res){
         if(res.statusCode==200) 
